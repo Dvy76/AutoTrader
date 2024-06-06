@@ -9,7 +9,7 @@ def supertrend(
     period: int = 10,
     ATR_multiplier: float = 3.0,
     source: pd.Series = None,
-) -> pd.DataFrame:
+) -> pd.DataFrame:&²
     """SuperTrend indicator, ported from the SuperTrend indicator by
     KivancOzbilgic on TradingView.
 
